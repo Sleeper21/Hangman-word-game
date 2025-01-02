@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(19, 19, 19);
+  color: rgb(224, 218, 210);
+  font-family: "Hanken Grotesk", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 2rem 0;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-top: 4rem;
+  max-width: 400px;
+}
+
+header h1 {
+  font-weight: 500;
+}
+
+header p {
+  color: rgba(142, 142, 142, 1);
+  margin-bottom: 2rem;
+}
+
+.sub-header-container{
+  padding: .5rem 0;
+  border-radius: 4px;
+}
+
+.eliminations-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 4px;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.life {
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: 3px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*** Hidden word ***/
+
+.word-container {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 5rem;
+}
+
+.letter-box {
+  background: rgba(50, 50, 50, 1);
+  border-bottom: 1px solid rgba(249, 244, 218, 1);
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/*** letters pad ***/
+
+.all-letters-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.5rem;
+  gap: 8px;
+  width: 600px;
+}
+
+.letter-btn{
+  border: 1px solid rgba(215, 215, 215, 1);
+  width: 50px;
+  height: 50px;  
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.letter-btn:hover{
+  border: 3.5px solid rgb(240, 240, 240);
+  background: rgb(238, 167, 15);
+}
