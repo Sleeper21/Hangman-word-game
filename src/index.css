@@ -37,6 +37,8 @@ header p {
 .sub-header-container{
   padding: .5rem 0;
   border-radius: 4px;
+  width: 400px;
+  text-align: center;
 }
 
 .eliminations-container {
@@ -105,4 +107,23 @@ header p {
 .letter-btn:hover{
   border: 3.5px solid rgb(240, 240, 240);
   background: rgb(238, 167, 15);
+}
+
+/*** New Game Button ***/
+
+.new-game-btn{
+  min-width: 14rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: rgba(17, 181, 229, 1);
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 2.25rem;
+  cursor: pointer;
+}
+.new-game-btn:hover{
+  border: 3px solid white;
+  background-color: rgb(18, 142, 180);
 }
