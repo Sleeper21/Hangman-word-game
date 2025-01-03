@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import Header from "./components/Header";
 import Eliminations from "./components/Eliminations";
 import WORDS from "../../POOL";
-import { getFarewellText } from "../../MESSAGES";
-import LIVES from "../../LIVES";
+import { getFarewellText } from "../MESSAGES";
+import LIVES from "../LIVES";
 
 import { useState } from "react";
 

@@ -1,5 +1,5 @@
-import LIVES from "../../../LIVES";
-import { getFarewellText } from "../../../MESSAGES";
+import LIVES from "../../LIVES";
+import { getFarewellText } from "../../MESSAGES";
 
 export default function Eliminations(props) {
 
